@@ -1,6 +1,6 @@
 # To-Do-List-App
 
-To Do List App using C#, ASP.NET MVC, SQL Server Database and Dapper.
+CRUD To Do List App using C#, ASP.NET MVC, SQL Server Database and Dapper.
 
 ![image](https://user-images.githubusercontent.com/28612659/197378632-a5a7387a-bf46-472d-ae89-70a102765240.png)
 
