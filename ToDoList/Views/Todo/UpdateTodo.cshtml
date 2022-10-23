@@ -1,0 +1,13 @@
+﻿@model Todo
+
+<h2>Update Task</h2>
+
+@using (Html.BeginForm("UpdateTodoToDatabase", "Todo", "Post"))
+{
+    <input asp-for="Id" type="hidden" value="@Model.Id" />
+
+    <label asp-for="Task" class="control-label">Name</label>
+    <input type="text" name="Task" class="form-control" value="@Model.Task" />
+    <br />
+    <input type="submit" value="Update Task" class=" btn btn-primary" />
+}
